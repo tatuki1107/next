@@ -4,7 +4,7 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start",
-    "vercel-build": "pnpm install --production=false && pnpm build"
+    "vercel-build": "pnpm install --no-frozen-lockfile && pnpm build"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
